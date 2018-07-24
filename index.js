@@ -27,3 +27,5 @@ mongoose.connection.once('open', function(){
 app.listen(config.port, function(){
   console.log('listening to port 80 or 3000')
 });
+
+//File for DB to begin with
